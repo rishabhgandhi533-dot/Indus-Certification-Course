@@ -1,0 +1,33 @@
+class bank{
+    constructor(amount){
+        this.amount=amount;
+    }
+    getbalance(){
+        console.log("balance is"+ this.amount)
+    }
+    deposit(amount){
+        if(amount>10000){
+            console.log("it is not possible")
+      
+    }
+    else{
+        this.amount = this.amount+amount;
+    }
+    }
+    withdraw(amount){
+        var tempamount = this.amount-amount
+        if(tempamount<2000){
+            console.log("minimum 2000 balance is required")
+        }
+        else{
+        this.amount=this.amount-amount;
+        
+    }
+    }
+}
+    var myobj= new bank(1000)
+    myobj.getbalance()
+    myobj.deposit(1000)
+    myobj.getbalance()
+    myobj.withdraw(25000)
+    myobj.getbalance()
