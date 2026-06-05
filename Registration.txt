@@ -1,0 +1,40 @@
+
+<html>
+<head>
+<title> student registration</title>
+</head>
+<body>
+<h1> student regisrtration form </h1>
+<form>
+
+Name:
+<input type="text"><br><br>
+
+Email:
+<input type="Email"><br><br>
+
+password:
+<input type="password"><br><br>
+
+Gender:
+<input type="radio" name="e">Male
+<input type="radio" name="e">Female
+<br><br>
+
+Course:
+<select>
+<option> BCA</option>
+<option>btech</option>
+<option>MCA</option>
+</select>
+<br><br>
+
+Skills:
+<input type="checkbox">html
+<input type="checkbox">css
+<br><br>
+
+<input type="submit">
+</form>
+</body>
+</html>
